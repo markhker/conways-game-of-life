@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+}
+
+button {
+  display: inline;
+  background-color: #a855f7;
+  border: none;
+  box-shadow: 5px;
+  margin: 3px;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  box-shadow: 12px;
+  opacity: 1;
+}
+
+.table {
+  background-color: #ddd;
+  margin: 2px;
+}
