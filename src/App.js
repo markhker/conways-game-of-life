@@ -105,11 +105,7 @@ export default function App() {
                 setBoard(newBoard);
               }}
               key={`${i}-${j}`}
-              style={{
-                width: 15,
-                height: 15,
-                background: board[i][j] ? "#EC4899" : undefined
-              }}
+              style={{ background: board[i][j] ? "#EC4899" : undefined }}
             ></div>
           ))
         )}
